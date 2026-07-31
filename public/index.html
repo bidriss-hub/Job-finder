@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>JobFinder Global</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<header class="hero">
+
+<h1> JobFinder Global</h1>
+
+<p>
+Search real job opportunities worldwide
+</p>
+
+</header>
+
+
+
+
+<main class="container">
+
+
+
+<section class="search-card">
+
+
+<h2>
+Find Your Next Opportunity
+</h2>
+
+
+
+<form id="search-form">
+
+
+<div class="form-group">
+
+<label>
+Job title or keyword
+</label>
+
+<input 
+id="q"
+type="text"
+placeholder="Software Developer">
+
+
+</div>
+
+
+
+
+<div class="form-group">
+
+<label>
+Location
+</label>
+
+<input
+id="where"
+type="text"
+placeholder="London, USA, Canada...">
+
+
+</div>
+
+
+
+
+
+<div class="form-group">
+
+<label>
+Category
+</label>
+
+
+<select id="category">
+
+<option value="">
+All Jobs
+</option>
+
+<option value="it-jobs">
+Technology
+</option>
+
+<option value="engineering-jobs">
+Engineering
+</option>
+
+<option value="healthcare-nursing-jobs">
+Healthcare
+</option>
+
+<option value="accounting-finance-jobs">
+Finance
+</option>
+
+<option value="sales-jobs">
+Sales
+</option>
+
+
+</select>
+
+
+</div>
+
+
+
+
+
+<div class="form-group">
+
+<label>
+Sort results
+</label>
+
+
+<select id="sort">
+
+<option value="relevance">
+Most Relevant
+</option>
+
+<option value="date">
+Newest
+</option>
+
+<option value="salary">
+Salary
+</option>
+
+
+</select>
+
+
+</div>
+
+
+
+
+<button class="search-btn">
+
+🔍 Search Jobs
+
+</button>
+
+
+
+</form>
+
+
+</section>
+
+
+
+
+
+
+<section class="popular-searches">
+
+
+<h2>
+Popular Job Markets
+</h2>
+
+
+
+<div class="location-grid">
+
+
+<button class="location-btn">
+🇬🇧 London, UK
+</button>
+
+
+
+<button class="location-btn">
+🇺🇸 New York, USA
+</button>
+
+
+
+<button class="location-btn">
+🇨🇦 Toronto, Canada
+</button>
+
+
+
+<button class="location-btn">
+🇩🇪 Berlin, Germany
+</button>
+
+
+
+<button class="location-btn">
+🇫🇷 Paris, France
+</button>
+
+
+
+<button class="location-btn">
+🇦🇺 Sydney, Australia
+</button>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+<section>
+
+
+<div class="results-header">
+
+<h2>
+Search Results
+</h2>
+
+
+<span id="status">
+Ready to search
+</span>
+
+
+</div>
+
+
+
+<div id="results" class="jobs-grid">
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<section class="saved-section">
+
+
+<h2>
+Saved Jobs
+</h2>
+
+
+<div id="saved-jobs" class="jobs-grid">
+
+
+<p>
+No saved jobs yet.
+</p>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+</main>
+
+
+
+
+
+<footer>
+
+<p>
+JobFinder Global | Powered by Adzuna API
+</p>
+
+</footer>
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
