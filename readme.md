@@ -7,7 +7,7 @@ The application uses the Adzuna Jobs API to retrieve job listings and provides u
 ---
 
 # Features
-
+ 
 ## Job Search
 - Search jobs by keyword
 - Search jobs by location
