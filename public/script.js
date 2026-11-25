@@ -16,7 +16,7 @@ let savedJobs =
 JSON.parse(localStorage.getItem("savedJobs")) || [];
 
 
-
+ 
 // SEARCH JOBS
 
 async function searchJobs(){
